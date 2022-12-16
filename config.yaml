@@ -1,0 +1,26 @@
+name: "bluebell"
+port: 8088
+mode: "dev"
+version: "v0.1"
+machineID: 1
+startTime: "2022-02-07"
+
+log:
+  level: "debug"
+  filename: "bluebell.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "gxy991212"
+  dbname: "bluebell"
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
